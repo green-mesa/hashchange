@@ -1,0 +1,16 @@
+{
+  "name": "hashchange",
+  "repo": "charlottegore/hashchange",
+  "description": "Detects hashchanges in modern browsers and IE6-8",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "manuelstofer/each": "*",
+    "component/indexof": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
