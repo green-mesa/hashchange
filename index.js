@@ -83,6 +83,14 @@ HashChange.prototype = {
 		return this;
 
 	},
+	
+	updateHash : function( hash ){
+ 
+        	this.currentHash = hash;
+ 
+        	window.location.href = window.location.href.replace( /#.*/, '') + '#' + hash;
+ 
+    	},
 
 	hashChanged : function(){
 
