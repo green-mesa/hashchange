@@ -1,8 +1,8 @@
 {
   "name": "hashchange",
-  "repo": "charlottegore/hashchange",
-  "description": "Detects hashchanges in modern browsers and IE6-8",
-  "version": "0.0.1",
+  "repo": "green-mesa/hashchange",
+  "description": "Detects hashchange",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {
     "manuelstofer/each": "*",
