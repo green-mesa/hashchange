@@ -15,8 +15,7 @@ var HashChange = function(){
 	this.onChangeCallbacks = [];
 
 	window.addEventListener("hashchange", function(e){
-
-		console.log(window.location.hash, 'hashchange', e.newURL, e.oldURL);
+		
 		self.hashChanged( getFragment(e.newURL) );
 
 	}, false);
