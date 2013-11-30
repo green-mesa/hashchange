@@ -2,7 +2,7 @@
   "name": "hashchange",
   "repo": "green-mesa/hashchange",
   "description": "Detects hashchange",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "keywords": [],
   "dependencies": {
     "manuelstofer/each": "*",

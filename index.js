@@ -35,7 +35,7 @@ HashChange.prototype = {
 
 		} else {
 
-			this.hashChanged();
+			this.hashChanged( getFragment() );
 
 		}
 
