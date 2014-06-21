@@ -6,7 +6,13 @@
 
 ## Installation
 
-    $ component install charlottegore/hashchange
+Browserify
+
+    $ npm install --save green-mesa-hashchange
+
+Component
+
+    $ component install green-mesa/hashchange
 
 ## API
 
