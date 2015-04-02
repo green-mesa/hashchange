@@ -8,7 +8,7 @@
 
 Browserify
 
-    $ npm install --save green-mesa-hashchange
+    $ npm install --save hashchange
 
 Component
 
