@@ -1,21 +1,26 @@
 {
-  "name"          : "green-mesa-hashchange",
-  "description"   : "Hash Change event handler thingy",
-  "keywords"      : ["event", "hash", "client", "browser"],
-  "author"        : "Visionmedia",
-  "dependencies"  : {
-    "foreach" : "2.0.4",
-    "component-indexof" : "0.0.3"
+  "name": "hashchange",
+  "description": "hash change event handler thingy",
+  "version": "0.1.4",
+  "author": "charlottegore",
+  "browser": {
+    "each": "foreach",
+    "indexof": "component-indexof"
   },
-  "main"          : "index.js",
-  "version"       : "0.1.4",
-  "license"       : "MIT",
+  "dependencies": {
+    "component-indexof": "0.0.3",
+    "foreach": "2.0.4"
+  },
+  "keywords": [
+    "browser",
+    "client",
+    "event",
+    "hash"
+  ],
+  "license": "MIT",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/green-mesa/hashchange.git"
-  },
-  "browser" : {
-    "each" : "foreach",
-    "indexof" : "component-indexof"
   }
 }
